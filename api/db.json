@@ -4,31 +4,36 @@
       "id": 1,
       "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque obcaecati odio id facere alias aut necessitatibus doloremque laborum ex labore facilis quidem explicabo impedit iusto earum, ipsam nobis odit aliquam animi assumenda dolorum adipisci ullam officia dolorem! Facere sint corporis eveniet, delectus molestiae alias, pariatur provident mollitia, cupiditate inventore perferendis?",
       "title": "React",
-      "price": 399
+      "price": 399,
+      "currency":"$"
     },
     {
       "id": 2,
       "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque obcaecati odio id facere alias aut necessitatibus doloremque laborum ex labore facilis quidem explicabo impedit iusto earum, ipsam nobis odit aliquam animi assumenda dolorum adipisci ullam officia dolorem! Facere sint corporis eveniet, delectus molestiae alias, pariatur provident mollitia, cupiditate inventore perferendis?",
       "title": "Vue",
-      "price": 450
+      "price": 450,
+      "currency":"$"
     },
     {
       "id": 4,
       "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque obcaecati odio id facere alias aut necessitatibus doloremque laborum ex labore facilis quidem explicabo impedit iusto earum, ipsam nobis odit aliquam animi assumenda dolorum adipisci ullam officia dolorem! Facere sint corporis eveniet, delectus molestiae alias, pariatur provident mollitia, cupiditate inventore perferendis?",
       "title": "Next",
-      "price": 500
+      "price": 500,
+      "currency":"$"
     },
     {
       "id": 5,
       "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque obcaecati odio id facere alias aut necessitatibus doloremque laborum ex labore facilis quidem explicabo impedit iusto earum, ipsam nobis odit aliquam animi assumenda dolorum adipisci ullam officia dolorem! Facere sint corporis eveniet, delectus molestiae alias, pariatur provident mollitia, cupiditate inventore perferendis?",
       "title": "Nuxt",
-      "price": 499
+      "price": 499,
+      "currency":"$"
     },
     {
       "id": 6,
       "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque obcaecati odio id facere alias aut necessitatibus doloremque laborum ex labore facilis quidem explicabo impedit iusto earum, ipsam nobis odit aliquam animi assumenda dolorum adipisci ullam officia dolorem! Facere sint corporis eveniet, delectus molestiae alias, pariatur provident mollitia, cupiditate inventore perferendis?",
       "title": "HTML",
-      "price": 0
+      "price": 0,
+      "currency":"$"
     }
   ]
 }
