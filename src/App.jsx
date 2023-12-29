@@ -7,6 +7,13 @@ import Loading from "./Loading";
 function App() {
   const [allCourses, setAllCourses] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const deleteCourse = async (id) => {
+    await axios.delete(`http://localhost:3000/courses/${id}`);
+    const afterDeletedCourses = allCourses.filter((course) => course.id !== id);
+    setAllCourses(afterDeletedCourses);
+  };
+
   const fetchCourses = async () => {
     setLoading(true);
     try {
@@ -21,7 +28,15 @@ function App() {
   useEffect(() => {
     fetchCourses();
   }, []);
-  return <div>{loading ? <Loading /> : <Courses courses={allCourses} />}</div>;
+  return (
+    <div>
+      {loading ? (
+        <Loading />
+      ) : (
+        <Courses courses={allCourses} removeCourse={deleteCourse} />
+      )}
+    </div>
+  );
 }
 
 export default App;
