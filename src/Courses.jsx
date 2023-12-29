@@ -1,8 +1,11 @@
 const Courses = ({ courses }) => {
-  console.log(courses);
   return (
     <div>
-      <div>{courses}</div>
+      <div>
+        {courses.map((course) => (
+          <div key={course.id}>{course.title}</div>
+        ))}
+      </div>
     </div>
   );
 };
